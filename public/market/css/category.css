@@ -1,0 +1,50 @@
+.nav {
+  position: relative;
+  width: 90px;
+  height: 100%;
+  float: left;
+}
+
+.nav li {
+  height: 50px;
+  width: 100%;
+}
+
+.nav li a {
+  display: block;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+  background-color: #069;
+  color: #fff;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.nav li.active a {
+  border-right: none;
+  background-color: #fff;
+  color: #069
+}
+
+.main {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.main li {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.main li a {
+  display: block;
+}
+
+.main li img {
+  height: 60px;
+  margin: 0 auto;
+}

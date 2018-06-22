@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.min.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class=" col-sm-4 col-sm-offset-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading text-center">后台管理系统</div>
+        <div class="panel-body">
+          <form class="form-horizontal" id='form_login'>
+            <div class="form-group">
+              <label for="username" class="col-sm-3 control-label">用户名</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" name='username' id="username" placeholder="请输入用户名" autocomplete='off'>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="col-sm-3 control-label">密码</label>
+              <div class="col-sm-9">
+                <input type="password" class="form-control" name='password' id="password" placeholder="请输入密码">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-3 col-sm-9">
+                <button type="reset" class="btn btn-default btn_reset">重置</button>
+                <button type="submit" class="btn btn-primary col-sm-offset-2">登录</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
